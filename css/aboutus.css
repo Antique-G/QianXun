@@ -1,0 +1,73 @@
+*{
+				margin: 0px;
+				padding: 0px;
+			}
+			.head{
+				position: relative;
+				overflow: hidden;
+				
+			}
+			.big{
+				position: absolute;
+				left: 510px;
+			    top: 155px;
+			   
+			    
+			}
+			.small{
+				background-image: url(../images/alogo.png);
+				background-repeat: no-repeat;
+				background-position: 0px -110px;
+				width: 330px;
+				height: 72px;
+				
+			}
+			.one{
+				position: absolute;
+				left:590px;
+				top:285px
+			}
+			.two{
+				background-image: url(../images/alogo.png);
+				background-repeat: no-repeat;
+				background-position:-177px -184px;
+				width:155px;
+				height: 41px;
+			}
+			.A{
+			width: 1349px;
+			height: 349px;
+		}
+			.div1{
+			padding-left: 150px;
+			width:479px;
+			height: 400px;
+			float: left;
+		}
+		.div2{
+			position: absolute;
+			right: 247px;
+			width:349px;
+			height: 349px;
+			float: left;
+		}
+		.dl1{
+			float: left;
+		}
+		.dl2{
+			float: right;
+		}
+		.dl3{
+			float: left;
+		}
+		.dl4{
+			float: right;
+		}
+		.tb{
+			text-align: center;
+			/*opacity: 0.7;*/
+		}
+		a{
+			text-decoration: none;
+			color: #ffffff;
+		}

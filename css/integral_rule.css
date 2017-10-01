@@ -1,0 +1,65 @@
+*{
+				margin: 0px;
+				padding: 0px;
+			}
+			.h{
+				position: relative;
+				width: 1349px;
+				height: 75px;
+				border-bottom:1px solid gainsboro;
+			}
+			.one{
+				left: 206px;
+				top: 16px;
+				position: absolute;	
+				float: left;
+			}
+			.two{
+				background-color: white;
+				background-image: url(../images/sprite.png);
+				background-repeat: no-repeat;
+				background-position: -28px 0;
+				width: 241px;
+				height: 33px;
+			}
+			.U{
+				padding-right: 502px;
+				padding-top: 16px;
+			}
+			.U li{
+				list-style-type: none;
+				width: 118px;
+				height: 34px;
+				float: right;
+				padding-top: 10px;	
+			}
+			a{
+				text-decoration: none;
+				color: #425766;
+			}
+            a:hover{
+				color: #88b7ee;	
+			}
+			/*.LI a:visited{
+				color: #ff4500;	
+			}*/
+			
+			.LI{
+				text-align: center;
+				border-bottom: 3px solid #ff4500;	
+			}
+			.one{
+				background-color: ghostwhite;
+			}
+			.G{
+				background-color: ghostwhite;
+				padding-left: 204px;
+				/*margin-top: 10px;*/
+			}
+			td{
+				text-align: center;
+				border-bottom: 1px solid black;
+			}
+			h3{
+             color: #000027;
+			}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/my_integral.css" />
+		<script type="text/javascript" src="../js/jquery-1.11.1.js" ></script>
+		<script>
+			$(function(){
+				var num=0;
+				var timer;
+				function aa(){
+					clearInterval(timer);
+					timer=setInterval(function(){
+						num+=1;
+						if(num>3){
+							num=0
+						}
+						$('.ZP').css('left',-747*num+'px');
+					},1500)
+				}
+				aa();
+				$('.right').hover(function(){
+					clearInterval(timer);
+				},function(){
+					aa()
+				});
+				
+				$('.btn2').click(function(event){
+					num+=1;
+						if(num>3){
+							num=0
+						}
+						$('.ZP').css('left',-747*num+'px');
+				})
+				$('.btn3').click(function(event){
+					num-=1;
+						if(num<0){
+							num=3
+						}
+						$('.ZP').css('left',-747*num+'px');
+				})
+})
+			
+		</script>
+	</head>
+	<body>
+		<div class="big">
+			
+		<div class="h">
+
+		  <div class="one">
+		  	 <div class="two"></div>
+		  </div>
+		
+		<ul class="U">
+			<li ><a href="integral_rule.html">积分规则</a></li>
+			<li class="LI"><a href="my_integral.html"><font color="#ff4500">我的积分</font> </a></li>
+			<li><a href="conversion_privilege.html">兑换特权</a></li>
+		</ul>
+		</div>
+		<hr>
+		
+		<div class="big1">       
+			<div class="small">
+				
+				<div class="div1">
+					<div class="left">
+					<a href=""><button class="btn1"><font color="white">签到抽奖</font></button></a><br />
+					 <p class="QD">已连续签到<span id="red">0</span>天</p>
+					</div>
+					
+					<div class="right">
+			  	 		<button class="btn2"></button>
+					    <button class="btn3"></button>
+					    <ul class="ZP">
+					         <li><img src="../images/banner01.png"/></li>
+					         <li><img src="../images/banner02.png"/></li>
+					         <li><img src="../images/banner03.jpg"/></li>
+					         <li><img src="../images/banner04.jpg"/></li>
+					    </ul>
+			  	 	</div>
+				</div>
+				<br />
+
+				<div class="div2">
+					<div class="top">
+						<div class="div21">
+							<div class="div22">
+							</div>
+						</div>
+						<div class="top1">昨日获得积分：
+						<img src="../images/one.png"  alt=""/>
+						<img src="../images/four.png"  alt=""/>
+						<img src="../images/shadow.png" alt="" class="shadow">
+						</div>
+					</div>
+					
+					<div class="bottom">
+						<div class="inside">
+							
+							<div class="inside1">
+								<div class="inside2">
+								    	<div class="circle"><a href=""></a></div>
+									</div>
+								<img src="../images/circle.png">
+								<p class="ZT" style="color: #e5e8ec;">0分</p>
+								<p class="ZT1" style="color: #e5e8ec;">5分/小时</p>
+								<p class="ZT2" style="color: #e5e8ec;">昨日登录增长</p>
+								   
+							</div>
+							<div class="inside1">
+								<div class="inside2">
+								    	<div class="circle"><a href=""></a></div>
+								</div>
+								<img src="../images/circle.png">
+								   <p class="ZT" style="color: #e5e8ec;">0分</p>
+								   <p class="ZT3" style="color: #e5e8ec;">3分/小时</p>
+								   <p class="ZT4" style="color: #e5e8ec;">昨日搜索增长</p>
+
+							</div>
+							<div class="inside1">
+								<div class="inside2">
+								    	<div class="circle"><a href=""></a></div>
+								</div>
+								<img src="../images/circle.png">
+								   <p class="ZT" style="color: #e5e8ec;">0分</p>
+								   <p class="ZT5" style="color: #e5e8ec;">1分/小时</p>
+								   <p class="ZT6" style="color: #e5e8ec;">昨日网页访问增长</p>
+
+							</div>
+						</div>
+	
+					</div>
+					
+				</div>
+				<br />
+				
+				
+				<div class="div3">
+						<!--图标-->
+						<div class="div31">
+						<div class="div32"></div>
+						</div>
+						<div class="GG">
+							近10天获得积分详情：
+							<ul class="FD">
+							<li class="LI1" style="color: #88b7ee;"><a href=""><font color="#88b7ee" >在线</font></a></li>
+							<li><a href=""><font color="#425766">搜索</font></a></li>
+							<li><a href=""><font color="#425766">网页访问</font></a></li>
+							</ul>
+						</div>
+					<div class="bottom1">
+						<div class="XD"></div>
+						<div class="XD"></div>
+						<div class="XD"></div>
+						<div class="XD"></div>
+						<div class="XD"></div>
+						<div class="XD"></div>
+						<div class="XD"></div>
+						<div class="XD"></div>
+						<div class="XD"></div>
+						<div class="XD"></div>
+					</div>
+					<div class="bottom2">
+						<div class="RQ">11月14日</div>
+						<div class="RQ">15日</div>
+						<div class="RQ">16日</div>
+						<div class="RQ">17日</div>
+						<div class="RQ">18日</div>
+						<div class="RQ">19日</div>
+						<div class="RQ">20日</div>
+						<div class="RQ">21日</div>
+						<div class="RQ">22日</div>
+						<div class="RQ">23日</div>
+					</div>
+				</div>
+		
+			</div>
+		</div>
+		
+     </div>
+	</body>
+</html>

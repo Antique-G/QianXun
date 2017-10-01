@@ -1,0 +1,344 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.h{
+				position: relative;
+				width: 1349px;
+				height: 75px;
+				border-bottom:1px solid gainsboro;
+			}
+			.one{
+				left: 206px;
+				top: 16px;
+				position: absolute;	
+				float: left;
+			}
+			.two{
+				background-color: white;
+				background-image: url(../images/sprite.png);
+				background-repeat: no-repeat;
+				background-position: -28px 0;
+				width: 241px;
+				height: 33px;
+			}
+			.U{
+				padding-right: 502px;
+				padding-top: 16px;
+			}
+			.U li{
+				list-style-type: none;
+				width: 118px;
+				height: 34px;
+				float: right;
+				padding-top: 10px;	
+				text-align: center;
+			}
+			a{
+				text-decoration: none;
+				color: #425766;
+			}
+			a:hover{
+				color: #88b7ee;	
+			}
+			.LI{
+				text-align: center;
+				border-bottom: 3px solid #ff4500;	
+			}
+			.FD li{
+					float: left;
+					margin-left: 200px;
+					padding-top: 10px;
+					top: -20px;
+					position: relative;
+					/*margin-left: -10px;*/
+				}
+				.LI1{
+					border-bottom: 3px solid #88b7ee;
+				}
+			/*big表示第二部分，small表示中间的框*/
+.big1{
+	background-color: ghostwhite;
+	width: 1349px;
+	height: 969px;
+	padding-top: 10px;
+	}
+.small{
+	
+	width:947px;
+	height: 895px;
+	margin: auto;
+	background-color: ghostwhite;
+}
+          /*div1,2,3分为三个框*/
+.div1{
+	/*background-color:gold;*/
+	width: 947px;
+	height: 225px;
+}
+.div2{
+	background-color:white;
+	width: 947px;
+	height: 323px;
+	padding-top: 10px;
+}
+.div3{
+	background-color:pink;
+	width: 947px;
+	height: 321px;
+	padding-top: 10px;
+}
+.left{
+/*	background-color: blue;*/
+	width: 184px;
+	height: 225px;
+	float: left;
+	/*border: 1px solid ghostwhite;*/
+	box-shadow: 0px 0px 10px #888888;
+}
+/*放签到抽奖*/
+.btn1{
+	border: none;
+	background: url(../images/sprite1.png) no-repeat;
+	width: 145px;
+	height: 44px;
+	background-position:-125px -1564px ;
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 70px;
+	font-size: 18px;
+	outline: none;
+	cursor: pointer;
+}
+.QD{
+	left: 50px;
+	top: 100px;
+	position: relative;
+	font-size: 10px;
+	color: #425766;
+}
+#red{
+	color: red;
+}
+
+/*右边的*/
+.right{
+	width: 745px;
+	height: 225px;
+	/*background-color: #B0E0E6;*/
+	float: right;
+	overflow: hidden;
+	top: 30px;
+}
+.ZP{
+	width: 10000px;
+	height: 218px;
+	position: relative;	
+}
+.ZP li{
+	float: left;
+}
+.btn2{
+	border: none;
+	background: url(../images/sprite1.png)no-repeat;
+	width: 38px;
+	height: 67px;
+	background-position: -239px -1869px;
+	position: absolute;
+	margin-left: 17px;
+	margin-top: 78px;
+	cursor: pointer;
+	z-index: 1;
+	outline: none;
+}
+.btn3{
+	border: none;
+	background: url(../images/sprite1.png)no-repeat;
+	width: 38px;
+	height: 67px;
+	background-position: -239px -1936px;
+	position: absolute;
+	margin-left:700px;
+	margin-top: 78px;
+	z-index: 1;
+	cursor: pointer;
+	outline: none;
+}
+/*div2的样式*/
+.top{
+	/*background-color: aquamarine;*/
+	width: 947px;
+	height: 76px;
+	/*float: left;*/
+}
+.bottom{
+	/*background-color: #008000;*/
+	width: 947px;
+	height: 247px;
+}
+/*小图*/
+.div21{
+	left: 36px;
+	top: 34px;
+	position: relative;
+}
+.div22{
+	background: url(../images/sprite1.png) no-repeat;
+	width: 18px;
+	height: 18px;
+	background-position: -253px -2115px;
+	position: absolute;
+}
+.shadow{
+	width: 35px;
+	position: absolute;
+	left: 120px;
+	top: 20px;
+}
+.top1{
+	position: relative;
+	left: 65px;
+	top: 34px;
+}
+/*昨日获得积分样式*/
+.GG{
+	position: relative;
+	left: 65px;
+	top: 34px;	
+}
+/*三个半圆外框*/
+.inside{
+	/*background-color: yellow;*/
+     width: 778px;
+     height: 189px;
+     margin: auto;
+     }
+
+.inside{
+	
+	margin-right: 110px;
+}
+.inside1{
+	width: 196px;
+	height: 183px;
+	float: left;
+	margin-left: 50px;
+	/*background-color: red;*/
+}
+/*放问号*/
+.circle{
+	background: url(../images/sprite1.png) no-repeat;
+	width: 22px;
+	height: 22px;
+	background-position: -250px -2135px;
+	position: relative;
+	left: 175px;
+	top: 20px;
+	cursor: pointer;
+}
+/*弄字*/
+.inside2 img{
+	position: relative;
+}
+.ZT{
+	position: relative;
+	margin-left: 80px;
+	margin-top: -140px;
+	font-size: 40px;
+}
+
+.ZT1{
+	position: relative;
+	margin-left: 80px;
+	margin-top: 40px;
+	font-size: 10px;
+}
+.ZT2{
+	position: relative;
+	margin-left: 68px;
+	margin-top: 0px;
+	font-size: 10px;
+}
+.ZT3{
+	position: relative;
+	margin-left: 80px;
+	margin-top: 40px;
+	font-size: 10px;
+}
+.ZT4{
+	position: relative;
+	margin-left: 68px;
+	margin-top: 0px;
+	font-size: 10px;
+}
+.ZT5{
+	position: relative;
+	margin-left: 80px;
+	margin-top: 40px;
+	font-size: 10px;
+}
+.ZT6{
+	position: relative;
+	margin-left: 63px;
+	margin-top: 0px;
+	font-size: 10px;
+}
+
+/*div3*/ 
+.div3,.div1,.div2{
+	background-color: white;
+}
+.G{
+	width: 947px;
+	height: 50px;
+}
+.div31{
+	left: 36px;
+	top: 32px;
+	position: relative;
+}
+.div32{
+	background: url(../images/sprite1.png) no-repeat;
+	width: 18px;
+	height: 18px;
+	background-position: -255px -2182px;
+	position: absolute;
+}
+
+/*图标*/
+.bottom1{
+	width: 705px;
+	height: 6px;
+	/*background-color: yellow;*/
+	margin: auto;
+	position: absolute;
+	top: 880px;
+	margin-left: 100px;
+	box-sizing: border-box;
+	border-bottom: 2px solid #e5e8ec;
+}
+.XD{
+	width: 6px;
+	height: 6px;
+	background-color: #79a7d9;
+	float: left;
+	/*position: absolute;*/
+	margin-left: 60px;
+}
+.bottom2{
+	width: 705px;
+	height: 30px;
+	/*background-color: yellow;*/
+	margin: auto;
+	position: absolute;
+	top: 900px;
+	margin-left: 100px;
+	box-sizing: border-box;
+}
+.RQ{
+	float: left;
+	/*position: absolute;*/
+	margin-left: 29px;
+}
+

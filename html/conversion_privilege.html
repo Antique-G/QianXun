@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/conversion_privilege.css" />
+		<script  src="../js/jquery-1.11.1.js" ></script>
+	    <script type="text/javascript">
+$(function(){
+				var num=0;
+				var timer;
+				function aa(){
+					clearInterval(timer);
+					timer=setInterval(function(){
+						num+=1;
+						if(num>3){
+							num=0
+						}
+						$('.ZP').css('left',-747*num+'px');
+					},1500)
+				}
+				aa();
+				$('.right').hover(function(){
+					clearInterval(timer);
+				},function(){
+					aa()
+				});
+				
+                  $('.btn2').click(function(event){
+					num+=1;
+						if(num>3){
+							num=0
+						}
+						$('.ZP').css('left',-747*num+'px');
+				})
+                  $('.btn3').click(function(event){
+					num-=1;
+						if(num<0){
+							num=3
+						}
+						$('.ZP').css('left',-747*num+'px');
+				})
+})
+
+	    </script>
+	</head>
+	<body>
+		<div class="big">
+		<div class="h">
+
+		  <div class="one">
+		  	 <div class="two"></div>
+		  </div>
+		
+		<ul class="U">
+			<li ><a href="integral_rule.html">积分规则</a></li>
+			<li><a href="my_integral.html">我的积分</a></li>
+			<li class="LI"><a href="conversion_privilege.html"><font color="#ff4500">兑换特权</font></a></li>
+		</ul>
+		</div>
+		<hr>
+		
+		<div class="big1">
+			  <!--small为中间的框-->
+			  <div class="small">
+			  	
+					  	 <div class="div1">
+					  	 	<div class="left">
+					  	 		<a href="javascript:void(0)"><button class="btn1">登录签到</button></a><br />
+					  	 		<p class="QDQ">赚积分换特权<br/>连续签到<span id="red">3</span>天还能抽到大奖！</p>	    
+					  	 	</div>
+					  	 	      <!--右边-->
+					  	 	<div class="right">
+					  	 		<button class="btn2"></button>
+							    <button class="btn3"></button>
+							    <ul class="ZP">
+							         <li><img src="../images/banner01.png"/></li>
+							         <li><img src="../images/banner02.png"/></li>
+							         <li><img src="../images/banner03.jpg"/></li>
+							         <li><img src="../images/banner04.jpg"/></li>
+							    </ul>
+					  	 	</div>
+					  	 </div>
+			  	 <br />
+			  	 
+			  	 <!--第二个框-->
+							  	 <div class="div2">
+							  	 	<div class="div21">
+							  	 		<img src="../images/new.png" />
+							  	 		<a href="" class="btn4">了解更多</a>
+							  	 	</div>
+							  	 	
+							  	 	
+							  	 	<div class="div22">
+							  	 		<div class="left1">
+							  	 		<ul class="A">
+							  	 			<li class="P"><img src="../images/pptv.png"></li>
+							  	 			<li><p class="JL">PPTV聚力会员激活码</p></li>
+							  	 			<li class="TP"><img src="../images/pptv_bg.png" /></li>
+							  	 		</ul>
+							  	 		</div>
+							  	 		<div class="SX"></div>
+							  	 		<div class="right1">
+							  	 			<div class="B"><img src="../images/prize.png"></div>
+							  	 			<div class="C"><img src="../images/prize.png"></div>
+							  	 			<div class="D"><img src="../images/pptv7.png">
+							  	 		     <p style="font-size: 24px;"><strong>500积分</strong></p>
+							  	 			</div>
+							  	 			<div class="E"><img src="../images/pptvm.png">
+							  	 			<p style="font-size: 24px;"><strong>1500积分</strong></p>
+							  	 			</div>
+							  	 		</div>
+							  	 		
+							  	 	</div>
+							  	 </div>
+			  	 <br />
+			  	 
+			  	 <!--第三个-->
+							  	 <div class="div3">
+							  	 <div class="div31">
+							  	 		<a href="" class="btn5">了解更多</a>
+							  	 </div>
+							  	 
+							  	 <div class="div32">
+							  	 	<div class="leftA">
+							  	 		<ul class="one">
+							  	 			<li class="AQY"><img src="../images/iqy.png"></li>
+							  	 			<li><p class="AQYZT">爱奇艺VIP激活码</p></li>
+							  	 			<li class="TP1"><img src="../images/iqy_bg.png" /></li>
+							  	 		</ul>
+							  	 		</div>
+							  	 		 <div class="SX1"></div>
+							  	 </div>
+							  
+							  	 <div class="rightB">
+							  	 	
+							  	 			<div class="BB"><img src="../images/prize.png"></div>
+							  	 			<div class="CC"><img src="../images/prize.png"></div>
+							  	 			<div class="F"><img src="../images/iqyday.png">
+							  	 			<p style="font-size: 24px;"><strong>500积分</strong></p>
+							  	 			</div>
+							  	 			<div class="G"><img src="../images/iqymonth.png">
+							  	 			<p style="font-size: 24px;"><strong>1500积分</strong></p>
+							  	 			</div>
+							  	 		</div>
+				
+							  	 </div>
+			  	 <br />
+			  	 
+			  	 
+			  	 <div class="div4">
+			  	 	<div class="div41">
+			  	 		<a href="" class="btn6">了解更多</a>
+			  	 	</div>
+			  	 	<div class="div42">
+			  	 		<div class="div421">
+			  	 			<ul>
+			  	 			<li class="li421"><img src="../images/bdc.png" /></li>
+			  	 			<li class="li422"><p>百度云会员激活码</p></li>
+			  	 			</ul>
+			  	 			<div class="SX2"></div>
+			  	 			<br />
+			  	 		</div>
+			  	 	</div>
+			  	 	<div class="div43">
+			  	 		<img src="../images/bdy_bg.png" />
+			  	 		
+			  	 	</div>
+			  	 	
+			  	 	<div class="div44">
+			  	 		<div class="div441"><img src="../images/prize.png"></div>
+			  	 		<div class="div442"><img src="../images/bdyone.png">
+			  	 		<p style="font-size: 24px;"><strong>4000积分</strong></p>
+			  	 	</div>
+			  	 </div>
+			  	 
+			  	 <br />
+			  	 
+			  	 <div class="div5">
+			  	 	<div class="div51">
+			  	 		<a href="" class="btn7">了解更多</a>
+			  	 	</div>
+			  
+			  		
+			  	 <div class="div52">
+			  	 
+			  	 		<div class="div521">
+			  	 			<ul>
+			  	 			<li class="li521"><img src="../images/txt.png" /></li>
+			  	 			<li class="li522"><p>百度文库VIP激活码</p></li>
+			  	 			<li class="li523"><img src="../images/txt_bg.png" ></li>
+			  	 			</ul>
+			  	 			
+			  	 		</div>
+			  	 		
+			  	 	   <div class="div53">
+			  	 	   
+			  	 	   		<div class="div531"><img src="../images/prize.png"></div>
+			  	 	   		<div class="div532"><img src="../images/prize.png"></div>
+			  	 	   		<div class="div533"><img src="../images/txt_day.png">
+			  	 	   		<p style="font-size: 24px;"><strong>800积分</strong></p>
+			  	 	   		<div class="div534"><img src="../images/txt_month.png">
+			  	 	   		<p style="font-size: 24px;"><strong>4000积分</strong></p>
+			  	 	   		<div class="SX3"></div>
+			  	 	   			
+			  	 	   </div>
+			  	 </div>
+
+			  </div>
+		</div>
+		</div>
+		</div>
+	</body>
+</html>
